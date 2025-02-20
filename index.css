@@ -35,7 +35,7 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --pink: #F1C7C7;
+    --pink: #ff3258;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -70,9 +70,9 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--black);
+    color: var(--white-1);
     line-height: var(--line-height-normal);
-    background: var(--white);
+    background: var(--black);
     overflow-x: hidden;
 }
 
@@ -108,7 +108,12 @@ body {
 section {
     padding: var(--gutter-huge) 0;
     border-bottom: var(--border-light);
+}
 
+img {
+    object-fit: contain;
+    max-width: 100%;
+}
 
 /* --------------------------------------- */
 /* ----- Headlines and Paragraphs ----- */
@@ -120,7 +125,7 @@ h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--black);
+    color: var(--white);
 }
 
 .heading-primary {
@@ -183,7 +188,7 @@ p {
 /* --------------------------------------- */
 
 a {
-    color: var(#D9877B);
+    color: var(--white);
     font-weight: 400;
     font-family: 'Jost', sans-serif;
     transition: all .2s;
