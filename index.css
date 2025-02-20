@@ -70,9 +70,9 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(F7B2E4);
+    color: var(--black);
     line-height: var(--line-height-normal);
-    background: var(F7B2E4);
+    background: var(--pink);
     overflow-x: hidden;
 }
 
@@ -108,12 +108,7 @@ body {
 section {
     padding: var(--gutter-huge) 0;
     border-bottom: var(--border-light);
-}
 
-img {
-    object-fit: contain;
-    max-width: 100%;
-}
 
 /* --------------------------------------- */
 /* ----- Headlines and Paragraphs ----- */
@@ -125,7 +120,7 @@ h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(#140A11);
+    color: var(--black);
 }
 
 .heading-primary {
